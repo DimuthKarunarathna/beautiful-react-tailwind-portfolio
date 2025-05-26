@@ -28,7 +28,7 @@ export const AboutSection = () => {
               </a>
 
               <a
-                href="/projects/Dimuth%20Karunarathna%20CV%20.pdf%20(1).pdf"
+                href="/public/projects/DimuthKarunarathnaCV.pdf"
                 className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
                 download
               >
