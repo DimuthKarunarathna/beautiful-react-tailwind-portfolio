@@ -1,35 +1,35 @@
 import { ArrowRight, ExternalLink, Github } from "lucide-react";
 
 const projects = [
-  {
-    id: 1,
-    title: "SaaS Landing Page",
-    description: "A beautiful landing page app using React and Tailwind.",
-    image: "/projects/project1.png",
-    tags: ["React", "TailwindCSS", "Supabase"],
-    demoUrl: "#",
-    githubUrl: "#",
-  },
+  // {
+  //   id: 1,
+  //   title: "Realtime Accident",
+  //   description: "A beautiful landing page app using React and Tailwind.",
+  //   image: "/projects/project1.png",
+  //   tags: ["React", "TailwindCSS", "Supabase"],
+  //   demoUrl: "#",
+  //   githubUrl: "#",
+  // },
   {
     id: 2,
-    title: "Orbit Analytics Dashboard",
+    title: "Resume Screening System",
     description:
-      "Interactive analytics dashboard with data visualization and filtering capabilities.",
-    image: "/projects/project2.png",
-    tags: ["TypeScript", "D3.js", "Next.js"],
+      "A Machine Learning-based Resume Screening System that classifies resumes into different job categories using Natural Language Processing (NLP) and a Naive Bayes classifier.",
+    image: "/projects/project4.png",
+    tags: ["Multinomial Naive Bayes", "Streamlit", "Python"],
     demoUrl: "#",
     githubUrl: "#",
   },
-  {
-    id: 3,
-    title: "E-commerce Platform",
-    description:
-      "Full-featured e-commerce platform with user authentication and payment processing.",
-    image: "/projects/project3.png",
-    tags: ["React", "Node.js", "Stripe"],
-    demoUrl: "#",
-    githubUrl: "#",
-  },
+  // {
+  //   id: 3,
+  //   title: "E-commerce Platform",
+  //   description:
+  //     "Full-featured e-commerce platform with user authentication and payment processing.",
+  //   image: "/projects/project3.png",
+  //   tags: ["React", "Node.js", "Stripe"],
+  //   demoUrl: "#",
+  //   githubUrl: "#",
+  // },
 ];
 
 export const ProjectsSection = () => {
@@ -100,7 +100,7 @@ export const ProjectsSection = () => {
           <a
             className="cosmic-button w-fit flex items-center mx-auto gap-2"
             target="_blank"
-            href="https://github.com/machadop1407"
+            href="https://github.com/DimuthKarunarathna"
           >
             Check My Github <ArrowRight size={16} />
           </a>
